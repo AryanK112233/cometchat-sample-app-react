@@ -1,21 +1,25 @@
+
+Sure, a buildspec.yml file is used by AWS CodeBuild to define the build commands and settings for your application. For a Node.js application where you run npm install and npm run build, here's a basic example of what your buildspec.yml might look like:
+
+yaml
+Copy code
 version: 0.2
 
 phases:
   install:
-    commands:
-      - echo Installing dependencies...
-      - npm install
 
+    commands:
+      - npm install
+  pre_build:
+    commands:
+      - echo "Starting the build phase..."
   build:
     commands:
-      - echo Building the application...
       - npm run build
+  post_build:
+    commands:
+      - echo "Build completed on `date`"
 
 artifacts:
   files:
-    - '**/*'  # This includes all files and directories
-  discard-paths: no  # Retains the full directory structure
-
-cache:
-  paths:
-    - node_modules/**/*
+    - '**/*'  # include all files in the build artifacts
