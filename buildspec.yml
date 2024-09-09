@@ -11,10 +11,6 @@ phases:
       - echo Building the application...
       - npm run build
 
-  post_build:
-    commands:
-      - echo Starting the server...
-      - npx serve -s build
 
 artifacts:
   files:
