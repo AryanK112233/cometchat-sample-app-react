@@ -10,7 +10,7 @@ This is a reference application showcasing the integration of [CometChat's React
 <div style="
     display: flex;
     align-items: center;
-    justify-content: center;">
+    justify-content: center;">.
    <img src="./Screenshots/overview_cometchat_screens.png" />
 </div>
 
