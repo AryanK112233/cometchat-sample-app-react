@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Installing dependencies...
       - npm install
+      - npm update
 
   build:
     commands:
