@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Fetching appconstants.txt from S3...
-      - aws s3 cp s3://your-bucket/path/to/appconstants.txt /path/to/your/app/appconstants.txt
+      - aws s3 cp s3://app-credentials-bucket/US/AppConstants.ts cometchat-sample-app-react/src/AppConstants.ts
 
   build:
     commands:
