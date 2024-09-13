@@ -7,6 +7,11 @@ phases:
       - npm install
       - npm update
 
+  pre_build:
+    commands:
+      - echo Fetching appconstants.txt from S3...
+      - aws s3 cp s3://your-bucket/path/to/appconstants.txt /path/to/your/app/appconstants.txt
+
   build:
     commands:
       - echo Building the application...
