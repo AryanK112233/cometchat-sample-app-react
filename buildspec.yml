@@ -7,10 +7,6 @@ phases:
       - npm install
       - npm update
 
-  pre_build:
-    commands:
-      - echo Fetching appconstants.txt from S3...
-      - aws s3 cp s3://app-credentials-bucket/US/AppConstants.ts cometchat-sample-app-react/src/AppConstants.ts
 
   build:
     commands:
