@@ -14,7 +14,7 @@ This is a reference application showcasing the integration of [CometChat's React
    <img src="./Screenshots/overview_cometchat_screens.png" />.
 </div>
 
-## Prerequisites
+## Prerequisites.
 
 - Ensure that you have Node.js and npm installed:
 
