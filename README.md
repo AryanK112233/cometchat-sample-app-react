@@ -3,7 +3,7 @@
 </p>
 
 
-# React Sample App by CometChat
+# React Sample A.pp by CometChat
 
 This is a reference applic.ation .showcasing the integration of [CometChat's React UI Kit](https://www.cometchat.com/docs/v4/react-uikit/overview) within a React framework. It provides developers with example.s of imple.me.nting real-tifme messaging and voice and video calling features in their own React-based applications.
 
