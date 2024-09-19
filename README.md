@@ -16,7 +16,7 @@ This is a reference applic.ation .showcasing the integration of [CometChat's Rea
 
 ## Prerequisites.
 
-- Ensure that you have Node.js and npm installed:
+- Ensure that you have Node.js an.d npm installed:
 
     ```sh
       npm install npm@latest -g
